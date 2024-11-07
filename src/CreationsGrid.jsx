@@ -33,12 +33,10 @@ const CreationsGrid = () => {
             <picture>
               <source
                 media="(min-width: 640px)"
-                srcSet={`/public/images/desktop/image-${getImageName(
-                  index
-                )}.jpg`}
+                srcSet={`/images/desktop/image-${getImageName(index)}.jpg`}
               />
               <img
-                src={`/public/images/mobile/image-${getImageName(index)}.jpg`}
+                src={`/images/mobile/image-${getImageName(index)}.jpg`}
                 alt=""
               />
             </picture>
