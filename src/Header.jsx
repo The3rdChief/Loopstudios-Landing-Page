@@ -55,14 +55,14 @@ const Header = () => {
 
   return (
     <>
-      <header className="text-white font-light p-8 pt-12 flex flex-col gap-12 min-h-dvh justify-between relative isolate bg-[url('../public/images/mobile/image-hero.jpg')] sm:bg-[url('../public/images/desktop/image-hero.jpg')] bg-no-repeat bg-cover after:content-[''] after:inset-0 after:bg-black/45 after:absolute after:-z-10">
+      <header className="text-white font-light p-8 pt-12 flex flex-col gap-12 min-h-dvh justify-between relative isolate bg-[url('/public/images/mobile/image-hero.jpg')] sm:bg-[url('/public/images/desktop/image-hero.jpg')] bg-no-repeat bg-cover after:content-[''] after:inset-0 after:bg-black/45 after:absolute after:-z-10">
         <div
           id="overlay"
           ref={overlayRef}
           className="fixed top-0 left-0 h-dvh w-dvw bg-black/0 pointer-events-none sm:hidden"
         ></div>
         <nav className="flex items-center justify-between sm:z-0 z-10 max-w-7xl">
-          <img src="../public/images/logo.svg" alt="logo" />
+          <img src="/public/images/logo.svg" alt="logo" />
 
           <button className="sm:hidden" onClick={toggleMenu}>
             <svg width="40" height="40" viewBox="0 0 100 100">
