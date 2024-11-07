@@ -98,9 +98,9 @@ const MainSection = () => {
             >
               <source
                 media="(min-width: 640px)"
-                srcSet="../public/images/desktop/image-interactive.jpg"
+                srcSet="/images/desktop/image-interactive.jpg"
               />
-              <img src="../public/images/mobile/image-interactive.jpg" alt="" />
+              <img src="/images/mobile/image-interactive.jpg" alt="" />
             </picture>
 
             <article
